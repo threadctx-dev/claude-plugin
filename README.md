@@ -19,7 +19,7 @@ Check what your coding agents are told, from inside Claude Code.
 - **A read-only MCP server** (`check_context`, `get_effective_context`, `explain_rule`) so Claude can check its
   own instructions. It never writes files and makes no network calls.
 
-The MCP server runs `npx -y threadctx@0.2.0 mcp`, pinned to an exact version.
+The MCP server runs `npx -y threadctx@0.2.1 mcp`, pinned to an exact version.
 
 Same engine on the command line: `npx threadctx scan` ([npm](https://www.npmjs.com/package/threadctx)),
 and on pull requests: [threadctx-dev/action](https://github.com/threadctx-dev/action).

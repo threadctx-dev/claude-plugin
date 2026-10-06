@@ -2,7 +2,7 @@
   "mcpServers": {
     "threadctx": {
       "command": "npx",
-      "args": ["-y", "threadctx@0.2.0", "mcp"]
+      "args": ["-y", "threadctx@0.2.1", "mcp"]
     }
   }
 }
